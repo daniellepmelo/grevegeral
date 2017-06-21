@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+html, button{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+html{
+  display: block;
+}
+
+body, p{
+  margin: 0;
+}
+
+body{
+  display: block;
+}
+
+header{
+  height: 400px;
+}
+
+header, section, footer {
+  padding: 20px 20px 70px 20px;
+}
+
+header{
+  background-color: gray;
+  background-image: url(img/fundo.jpg);
+  background-size: cover;
+}
+
+article, aside, footer, header, hgroup, main, nav, section{
+  display: block;
+}
+
+nav{
+  margin-bottom: 100px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button{
+  background-color: transparent;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+button:hover{
+  background-color: gray;
+}
+
+select{
+  display: block;
+}
+
+.vermelha {
+  background-color: #CF2227;
+}
+
+.branca{
+  color: #CF2227;
+}
+
+.data {
+  font-size: 64px;
+}
+
+h1, .chamada {
+  font-size: 24px
+}
+
+
+h1, p {
+  font-weight: lighter;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.img {
+  display: block;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+
+p{
+  text-align: justify;
+  margin: auto;
+}
+
+ img {
+   max-width: 20px;
+   width: 20px;
+ }
+
+ footer{
+   position: fixed;
+ }
+
+ @media (min-width: 600px){
+   section {
+     display: flex;
+   }
+
+   .esquerda{
+     display: block;
+     width: 100%;
+     margin-top: 5;
+     margin-bottom: auto;
+   }
+
+   .direita{
+     display: block;
+     width: 100%;
+     margin-top: auto;
+     margin-bottom: auto;
+   }
+
+
+ }
